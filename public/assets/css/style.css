@@ -1,0 +1,72 @@
+body {
+	font-family: 'Roboto', sans-serif;
+  /*background-image: url("../images/davidvilla.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100%;*/
+
+}
+
+.container {
+  background-color: white;
+}
+
+#navbar {
+	height: 100px;
+}
+
+#headerText {
+	margin-top: 35px;
+}
+
+#articleTitle {
+	text-align: center;
+	background-color: #333333;
+	color: #999;
+	height: 70px;
+  margin-top: 15px;
+
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn-custom {
+  color: white;
+  background-color: #1C2841;
+  border-color: #1C2841;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  color: white;
+  background-color: #141d2f;
+  border-color: #0d121d;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  color: white;	
+  background-color: #1C2841;
+  border-color: #1C2841;
+}
+
+.input-small {
+	width: 90px; 
+}
+
+#notes {
+  height: 475px;
+}
