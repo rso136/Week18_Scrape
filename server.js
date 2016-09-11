@@ -18,7 +18,7 @@ app.use(express.static('public'));
 
 
 //mongoose.connect('mongodb://localhost/nycproject');
-mongoose.connect('mongodb://heroku_j93dj1bt:innf76849aevppl6gk24h0hdmb@ds029436.mlab.com:29436/heroku_j93dj1bt');
+mongoose.connect('mongodb://heroku_q7fkp78v:3s00fqqvlfmhqv2n6bfm8psf2q@ds029486.mlab.com:29486/heroku_q7fkp78v');
 var db = mongoose.connection;
 
 
