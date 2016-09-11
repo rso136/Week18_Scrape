@@ -17,7 +17,8 @@ app.use(bodyParser.urlencoded({
 app.use(express.static('public'));
 
 
-mongoose.connect('mongodb://localhost/nycproject');
+//mongoose.connect('mongodb://localhost/nycproject');
+mongoose.connect('mongodb://heroku_j93dj1bt:innf76849aevppl6gk24h0hdmb@ds029436.mlab.com:29436/heroku_j93dj1bt');
 var db = mongoose.connection;
 
 
